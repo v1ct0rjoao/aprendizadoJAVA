@@ -24,8 +24,15 @@ public class SistemaDeNotas {
       System.out.println("O Aluno foi aprovado com média: " +  Nota  );
     } else if( Nota >= 5 && Nota <= 6.9 ){
       System.out.println("O aluno está de recuperação com nota: " +  Nota);
+    }else{
+      System.out.println("O aluno foi reprovado com nota menor que 5: " + Nota);
     }
 
+    if(Nota % 2 == 0){
+      System.out.println("\nNota é par");
+    }else {
+      System.out.println("Nota é impar");
+    }
 
 
   }
