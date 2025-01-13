@@ -23,15 +23,25 @@ public class Desafio4 {
         for (int i = 0; i < numeros.length; i++) {
 
             numeros[i] = scanner.nextInt();
-            int index = 0;
-
-            if(i   numeros.length){
-                System.out.println(numeros[i]);
-            }
+        }
+        System.out.println("\nNúmeros na ordem normal:");
+        for (int j = 0; j < numeros.length; j++) {
+            System.out.println("O numero é: " + numeros[j]);
 
         }
 
-    
+        System.out.println("\nNúmeros na ordem inversa:");
+        for (int k = numeros.length - 1; k >= 0; k--) { // Correção do laço
+            System.out.println("O número é: " + numeros[k]);
+        }
 
+        System.out.println("\nSoma dos valores");
+        int soma = 0;
+        for (int l = 0; l < numeros.length; l++) {
+          soma = numeros[l] + soma;
+          
+        }
+
+        System.out.println("\n a soma é: " + soma);
     }
 }
