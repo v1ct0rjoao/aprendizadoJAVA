@@ -1,3 +1,4 @@
+package TestesDeAulas;
 public class EntendoDados {
     public static void main(String[] args) {
         
