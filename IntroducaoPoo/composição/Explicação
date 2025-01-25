@@ -1,0 +1,3 @@
+Composição: Um objeto contém outro
+Na composição, uma classe usa objetos de outra classe como atributos. 
+Vamos usar como exemplo uma pessoa e um endereço.

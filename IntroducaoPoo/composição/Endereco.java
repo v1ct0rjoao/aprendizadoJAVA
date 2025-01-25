@@ -1,3 +1,4 @@
+package composição;
 // Criação de uma classe Endereco: OK
 // Essa classe deve representar um endereço com os atributos: OK
 // Nome da rua. OK 

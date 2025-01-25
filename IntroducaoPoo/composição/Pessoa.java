@@ -1,3 +1,4 @@
+package composição;
 // Criação de uma classe Pessoa:
 // Essa classe deve representar uma pessoa com os atributos:
 // Nome da pessoa.
@@ -8,8 +9,6 @@
 // Nome.
 // Idade.
 // Rua e número do endereço (usando os métodos da classe Endereco).
-
-
 
 public class Pessoa {
 
